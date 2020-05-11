@@ -9,6 +9,13 @@ First of all, install the CDK CLI by running the following command from your ter
 npm install -g aws-cdk
 ```
 
+{{% notice note %}} IF you are using Cloud9 the CDK may already be installed.  Update to the newest version by running this command:
+```
+npm install -g aws-cdk --force
+```
+{{% /notice%}}
+
+
 ### Initialize project
 
 Now, let's create a folder within our _sam-app_ directory where the pipeline code will reside.
